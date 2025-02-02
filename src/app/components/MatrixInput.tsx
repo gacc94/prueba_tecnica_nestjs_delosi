@@ -1,5 +1,5 @@
 import React from 'react';
-import { handleInputChange, handleKeyDown } from '../utils/matrixUtils';
+import { handleInputChange, handleKeyDown } from '../utils';
 
 interface MatrixInputProps {
     parsedMatrix: number[][];

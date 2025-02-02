@@ -1,10 +1,10 @@
 'use client';
 import { useState } from 'react';
 import { rotateMatrixCounterClockwise } from './utils/matrixUtils';
-import MatrixDisplay from './components/MatrixDisplay';
-import RotateButton from './components/RotateButton';
 import MatrixSizeSelector from './components/MatrixSizeSelector';
 import MatrixInput from './components/MatrixInput';
+import MatrixDisplay from './components/MatrixDisplay';
+import RotateButton from './components/RotateButton';
 
 export default function Home() {
     const [matrixSize, setMatrixSize] = useState<number | null>(null);
